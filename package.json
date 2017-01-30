@@ -1,0 +1,34 @@
+{
+  "name": "tweetback-bot",
+  "version": "0.1.0",
+  "description": "Tweet my stuff",
+  "main": "bot.js",
+  "scripts": {
+    "commit": "git-cz",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandeepmittal/tweetback-bot.git"
+  },
+  "keywords": [],
+  "author": "Aman Mittal (http://amandeepmittal.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amandeepmittal/tweetback-bot/issues"
+  },
+  "homepage": "https://github.com/amandeepmittal/tweetback-bot#readme",
+  "dependencies": {
+    "twit": "2.2.5"
+  },
+  "devDependencies": {
+    "commitizen": "2.8.6",
+    "conventional-changelog": "1.1.0",
+    "cz-conventional-changelog": "1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
