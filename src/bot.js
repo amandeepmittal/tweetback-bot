@@ -51,22 +51,7 @@ tweetOtherMediumArticles();
 setInterval(tweetOtherMediumArticles, 1000 * 60 * 60 * 12);
 
 /**
- * Tweet Book Blog posts
+ * TODO: Tweet Book Blog posts
  */
 
-// function tweetBookBlog () {
-//     let bookBlogPosts = uniqueRandomArray(articles.bookBlog);
-//     let message = bookBlogPosts();
-//
-//     T.post('statuses/update', {status: message}, (err, data, response) => {
-//         if (err) {
-//             console.error('CANNOT SEND TWEET' + err);
-//         }
-//         console.log('TWEETED SUCCESSFULLY: Book Blog Article');
-//     });
-// }
-//
-// // tweet randomly and in every 6 hours
-// tweetBookBlog();
-// setInterval(tweetBookBlog, 1000 * 60 * 60 * 6);
 

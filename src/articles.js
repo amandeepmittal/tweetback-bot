@@ -11,7 +11,9 @@ module.exports = {
         'Migrating from #Expressjs 4 to 5 https://hackernoon.com/migrating-from-expressjs-4-to-5-156dcd80eb11#.blwzfpr42 via @hackernoon #Tech #Nodejs'
     ],
     // NOTE: Book and Productivity articles on Medium
-    // otherMediumStories: [
-    //     ''
-    // ]
+    otherMediumStories: [
+        '5 things I learnt from Steal Like An Artist https://hackernoon.com/5-things-i-learnt-from-steal-like-an-artist-1b2edcd03d3 via @hackernoon #Productivity #Books #PeronsalDevelopment',
+        'NonFiction Books I read in 2016 https://hackernoon.com/nonfiction-books-i-read-in-2016-631b52d4953f via @hackernoon #Books #Productivity #Reading',
+        'Tools of Titans https://hackernoon.com/tools-of-titans-36d2e24c04aa via @hackernoon #Productivity #Books #Business #Entreprenuership'
+    ]
 };
