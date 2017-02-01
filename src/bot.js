@@ -6,6 +6,7 @@ const config = require('../config/index');
 const articles = require('./articles');
 const Twit =  require('twit');
 const uniqueRandomArray = require('unique-random-array');
+const stoicapi = require('stoic-api').random();
 
 const T = new Twit(config);
 
@@ -55,3 +56,21 @@ setInterval(tweetOtherMediumArticles, 1000 * 60 * 60 * 12);
  */
 
 
+/**
+ * Tweet Daily Stoicism
+ */
+
+function tweetDailyStoic () {
+    let message = stoicapi;
+
+    T.post('statuses/update', {status:message}, (err, data, response) => {
+        if (err) {
+            console.error('CANNOT SEND TWEET' + err);
+        }
+        console.log('TWEETED SUCCESSFULLY: Daily Stoic Quote');
+    });
+}
+
+// tweet randomly and in every 24 hours
+tweetDailyStoic();
+setInterval(tweetDailyStoic, 1000 * 60 * 60 * 24);
