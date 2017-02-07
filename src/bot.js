@@ -29,7 +29,6 @@ function tweetTechArticles () {
 }
 
 // tweet randomly and in every 12 hours
-tweetTechArticles();
 setInterval(tweetTechArticles, 1000 * 60 * 60 * 12);
 
 /**
@@ -48,7 +47,6 @@ function tweetOtherMediumArticles () {
     });
 }
 // tweet randomly and in every 12 hours
-tweetOtherMediumArticles();
 setInterval(tweetOtherMediumArticles, 1000 * 60 * 60 * 12);
 
 /**
@@ -72,5 +70,4 @@ function tweetDailyStoic () {
 }
 
 // tweet randomly and in every 24 hours
-tweetDailyStoic();
 setInterval(tweetDailyStoic, 1000 * 60 * 60 * 24);
