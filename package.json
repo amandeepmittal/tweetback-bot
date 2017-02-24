@@ -1,6 +1,6 @@
 {
   "name": "tweetback-bot",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Tweet my stuff",
   "main": "index.js",
   "scripts": {

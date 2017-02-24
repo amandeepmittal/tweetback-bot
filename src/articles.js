@@ -15,6 +15,7 @@ module.exports = {
         '5 things I learnt from Steal Like An Artist https://hackernoon.com/5-things-i-learnt-from-steal-like-an-artist-1b2edcd03d3 via @hackernoon #Productivity #Books #PeronsalDevelopment',
         'NonFiction Books I read in 2016 https://hackernoon.com/nonfiction-books-i-read-in-2016-631b52d4953f via @hackernoon #Books #Productivity #Reading',
         'Tools of Titans https://hackernoon.com/tools-of-titans-36d2e24c04aa via @hackernoon #Productivity #Books #Business #Entreprenuership',
-        '#NonFiction #Books I read in 2016 Part 2 https://medium.com/@amanhimself/nonfiction-books-i-read-in-2016-part-2-459bb8f217e2#.pf8jquyao … via @artmapinc #Productivity #Reading #PeronsalDevelopment'
+        '#NonFiction #Books I read in 2016 Part 2 https://medium.com/@amanhimself/nonfiction-books-i-read-in-2016-part-2-459bb8f217e2#.pf8jquyao via @artmapinc #Productivity #Reading #PeronsalDevelopment',
+        'How To Maintain #Sanity When Finding A #Job https://42hire.com/how-to-maintain-sanity-when-finding-a-job-87d368bcfd0c#.jintkr98n via @42hire #Career #Productivity #Tech #jobhunting #jobsearch'
     ]
 };
