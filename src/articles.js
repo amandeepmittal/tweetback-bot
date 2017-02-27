@@ -17,5 +17,8 @@ module.exports = {
         'Tools of Titans https://hackernoon.com/tools-of-titans-36d2e24c04aa via @hackernoon #Productivity #Books #Business #Entreprenuership',
         '#NonFiction #Books I read in 2016 Part 2 https://medium.com/@amanhimself/nonfiction-books-i-read-in-2016-part-2-459bb8f217e2#.pf8jquyao via @artmapinc #Productivity #Reading #PeronsalDevelopment',
         'How To Maintain #Sanity When Finding A #Job https://42hire.com/how-to-maintain-sanity-when-finding-a-job-87d368bcfd0c#.jintkr98n via @42hire #Career #Productivity #Tech #jobhunting #jobsearch'
+    ],
+    onlyOnce: [
+      'Getting Started with #IonicFramework https://hackernoon.com/getting-started-with-ionic-framework-an-overview-6725b687779b#.yvj6rnijh #Hybrid #overview #Mobile'
     ]
 };

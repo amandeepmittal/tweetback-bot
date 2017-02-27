@@ -49,6 +49,25 @@ function tweetOtherMediumArticles () {
 // tweet randomly and in every 12 hours
 setInterval(tweetOtherMediumArticles, 1000 * 60 * 60 * 12);
 
+
+/*
+ * Tweet these articles once every three days
+ */
+
+ function onlyOnce () {
+     let otherMediumArticles = uniqueRandomArray(articles.onlyOnce);
+     let message = onlyOnce();
+
+     T.post('statuses/update', {status: message}, (err, data, response) => {
+         if (err) {
+             console.error('CANNOT SEND TWEET' + err);
+         }
+         console.log('TWEETED SUCCESSFULLY: Only Once Article');
+     });
+ }
+ // tweet randomly and in every 3 days
+ setInterval(onlyOnce, 259200000);
+
 /**
  * TODO: Tweet Book Blog posts
  */
