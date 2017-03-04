@@ -1,6 +1,6 @@
 {
   "name": "tweetback-bot",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Tweet my stuff",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/amandeepmittal/tweetback-bot#readme",
   "dependencies": {
-    "stoic-api": "1.1.4",
+    "stoic-api": "1.2.0",
     "twit": "2.2.5",
     "unique-random-array": "1.0.0"
   },
