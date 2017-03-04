@@ -65,8 +65,8 @@ setInterval(tweetOtherMediumArticles, 1000 * 60 * 60 * 12);
          console.log('TWEETED SUCCESSFULLY: Only Once Article');
      });
  }
- // tweet randomly and in every 3 days
- setInterval(onlyOnce, 259200000);
+ // tweet randomly and in every 2 days
+ setInterval(onlyOnce, 1000 * 60 * 60 * 24 * 2);
 
 /**
  * TODO: Tweet Book Blog posts
