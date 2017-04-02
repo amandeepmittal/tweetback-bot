@@ -8,7 +8,8 @@ module.exports = {
         'Tip: How to use #Bower with #Heroku to manage your #FrontEnd #JavaScript Dependencies https://medium.com/@amanhimself/using-bower-with-heroku-cdc791320c88#.ria1rs44c #Tech',
         'How #Nodejs works? An overview https://medium.com/@amanhimself/the-node-js-system-51090c35dddc#.ddl1s583z #Tech',
         'The #Nodejs way, #philosophy of the #JavaScript platform https://medium.com/@amanhimself/the-node-way-philosophy-of-a-platform-f9738ed5f9d2#.upgfhgvut #Tech',
-        'Migrating from #Expressjs 4 to 5 https://hackernoon.com/migrating-from-expressjs-4-to-5-156dcd80eb11#.blwzfpr42 via @hackernoon #Tech #Nodejs'
+        'Migrating from #Expressjs 4 to 5 https://hackernoon.com/migrating-from-expressjs-4-to-5-156dcd80eb11#.blwzfpr42 via @hackernoon #JavaScript #Nodejs',
+        'How to Mock #Data for #Nodejs #Applications using #Faker.js https://hackernoon.com/how-to-mock-data-for-node-js-applications-using-faker-js-b1f4c0e78102 #JavaScript via @hackernoon'
     ],
     // NOTE: Book and Productivity articles on Medium
     otherMediumStories: [
