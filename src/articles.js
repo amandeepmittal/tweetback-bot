@@ -9,7 +9,8 @@ module.exports = {
         'How #Nodejs works? An overview https://medium.com/@amanhimself/the-node-js-system-51090c35dddc#.ddl1s583z #Tech',
         'The #Nodejs way, #philosophy of the #JavaScript platform https://medium.com/@amanhimself/the-node-way-philosophy-of-a-platform-f9738ed5f9d2#.upgfhgvut #Tech',
         'Migrating from #Expressjs 4 to 5 https://hackernoon.com/migrating-from-expressjs-4-to-5-156dcd80eb11#.blwzfpr42 via @hackernoon #JavaScript #Nodejs',
-        'How to Mock #Data for #Nodejs #Applications using #Faker.js https://hackernoon.com/how-to-mock-data-for-node-js-applications-using-faker-js-b1f4c0e78102 #JavaScript via @hackernoon'
+        'How to Mock #Data for #Nodejs #Applications using #Faker.js https://hackernoon.com/how-to-mock-data-for-node-js-applications-using-faker-js-b1f4c0e78102 #JavaScript via @hackernoon',
+        'How to Write #Modules in #Angularjs? https://amandeepmittal.github.io/blog/2017/04/14/Modules-in-Angularjs/ via @amanhimself #JavaScript #Tech'
     ],
     // NOTE: Book and Productivity articles on Medium
     otherMediumStories: [
