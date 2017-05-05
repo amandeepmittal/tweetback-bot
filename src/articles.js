@@ -10,7 +10,9 @@ module.exports = {
         'The #Nodejs way, #philosophy of the #JavaScript platform https://medium.com/@amanhimself/the-node-way-philosophy-of-a-platform-f9738ed5f9d2#.upgfhgvut #Tech',
         'Migrating from #Expressjs 4 to 5 https://hackernoon.com/migrating-from-expressjs-4-to-5-156dcd80eb11#.blwzfpr42 via @hackernoon #JavaScript #Nodejs',
         'How to Mock #Data for #Nodejs #Applications using #Faker.js https://hackernoon.com/how-to-mock-data-for-node-js-applications-using-faker-js-b1f4c0e78102 #JavaScript via @hackernoon',
-        'How to Write #Modules in #Angularjs? https://amandeepmittal.github.io/blog/2017/04/14/Modules-in-Angularjs/ via @amanhimself #JavaScript #Tech'
+        'How to Write #Modules in #Angularjs? https://amandeepmittal.github.io/blog/2017/04/14/Modules-in-Angularjs/ via @amanhimself #JavaScript #Tech',
+      'Getting Started with #IonicFramework https://hackernoon.com/getting-started-with-ionic-framework-an-overview-6725b687779b#.yvj6rnijh #Hybrid #overview #Mobile',
+      'How to use #Eslint in #Nodejs Applications? https://hackernoon.com/how-to-use-eslint-in-node-js-applications-cc4b2298ce55 via @hackernoon #JavaScript'
     ],
     // NOTE: Book and Productivity articles on Medium
     otherMediumStories: [
@@ -19,8 +21,8 @@ module.exports = {
         'Tools of Titans https://hackernoon.com/tools-of-titans-36d2e24c04aa via @hackernoon #Productivity #Books #Business #Entreprenuership',
         '#NonFiction #Books I read in 2016 Part 2 https://medium.com/@amanhimself/nonfiction-books-i-read-in-2016-part-2-459bb8f217e2#.pf8jquyao via @artmapinc #Productivity #Reading #PeronsalDevelopment',
         'How To Maintain #Sanity When Finding A #Job https://42hire.com/how-to-maintain-sanity-when-finding-a-job-87d368bcfd0c#.jintkr98n via @42hire #Career #Productivity #Tech #jobhunting #jobsearch'
-    ],
-    onlyOnce: [
-      'Getting Started with #IonicFramework https://hackernoon.com/getting-started-with-ionic-framework-an-overview-6725b687779b#.yvj6rnijh #Hybrid #overview #Mobile'
     ]
+    // onlyOnce: [
+    //
+    // ]
 };

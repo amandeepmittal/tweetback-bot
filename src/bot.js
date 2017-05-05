@@ -46,20 +46,20 @@ function tweetOtherMediumArticles () {
 setInterval(tweetOtherMediumArticles, 1000 * 60 * 60 * 12)
 
 
-/*
- * Tweet these articles once every three days
- */
-schedule.scheduleJob('* 22 * * 5', () => {
-  let otherMediumArticles = uniqueRandomArray(articles.onlyOnce)
-  let message = otherMediumArticles()
-
-  T.post('statuses/update', {status: message}, (err, data, response) => {
-    if (err) {
-      console.error('CANNOT SEND TWEET' + err)
-    }
-    console.log('TWEETED SUCCESSFULLY: Only Once Article')
-  })
-})
+// /*
+//  * Tweet these articles once every three days
+//  */
+// schedule.scheduleJob('* 22 * * 5', () => {
+//   let otherMediumArticles = uniqueRandomArray(articles.onlyOnce)
+//   let message = otherMediumArticles()
+//
+//   T.post('statuses/update', {status: message}, (err, data, response) => {
+//     if (err) {
+//       console.error('CANNOT SEND TWEET' + err)
+//     }
+//     console.log('TWEETED SUCCESSFULLY: Only Once Article')
+//   })
+// })
 
 /**
  * TODO: Tweet Book Blog posts
