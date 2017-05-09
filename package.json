@@ -20,7 +20,7 @@
   "homepage": "https://github.com/amandeepmittal/tweetback-bot#readme",
   "dependencies": {
     "node-schedule": "1.2.1",
-    "stoic-api": "1.2.0",
+    "stoic-api": "1.4.0",
     "twit": "2.2.5",
     "unique-random-array": "1.0.0"
   },
