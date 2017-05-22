@@ -13,7 +13,8 @@ module.exports = {
         'How to Write #Modules in #Angularjs? https://amandeepmittal.github.io/blog/2017/04/14/Modules-in-Angularjs/ via @amanhimself #JavaScript #Tech #WebDevelopment',
         'Getting Started with #IonicFramework https://hackernoon.com/getting-started-with-ionic-framework-an-overview-6725b687779b#.yvj6rnijh #Hybrid #overview #Mobile',
         'How to use #Eslint in #Nodejs Applications? https://hackernoon.com/how-to-use-eslint-in-node-js-applications-cc4b2298ce55 via @hackernoon #JavaScript',
-        'Modular #programming in #Angularjs https://amandeepmittal.github.io/blog/2017/05/18/Modular-programming-in-Angularjs/ via @amanhimself #JavaScript #Tech #WebDevelopment'
+        'Modular #programming in #Angularjs https://amandeepmittal.github.io/blog/2017/05/18/Modular-programming-in-Angularjs/ via @amanhimself #JavaScript #Tech #WebDevelopment',
+      'Concepts in #Angularjs https://amandeepmittal.github.io/blog/2017/05/21/Concepts-in-Angularjs/ #JavaScript #WebDevelopment'
     ],
     // NOTE: Book and Productivity articles on Medium
     otherMediumStories: [
