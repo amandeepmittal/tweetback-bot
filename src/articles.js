@@ -14,7 +14,8 @@ module.exports = {
         'Getting Started with #IonicFramework https://hackernoon.com/getting-started-with-ionic-framework-an-overview-6725b687779b#.yvj6rnijh #Hybrid #overview #Mobile',
         'How to use #Eslint in #Nodejs Applications? https://hackernoon.com/how-to-use-eslint-in-node-js-applications-cc4b2298ce55 via @hackernoon #JavaScript',
         'Modular #programming in #Angularjs https://amandeepmittal.github.io/blog/2017/05/18/Modular-programming-in-Angularjs/ via @amanhimself #JavaScript #Tech #WebDevelopment',
-      'Concepts in #Angularjs https://amandeepmittal.github.io/blog/2017/05/21/Concepts-in-Angularjs/ #JavaScript #WebDevelopment'
+        'Concepts in #Angularjs https://amandeepmittal.github.io/blog/2017/05/21/Concepts-in-Angularjs/ #JavaScript #WebDevelopment',
+        'Getting Started with #Sequelize for #Nodejs Applications https://amandeepmittal.github.io/blog/2017/05/30/Getting-Started-with-Sequelize-for-Nodejs-Applications/ #JavaScript #MySQL'
     ],
     // NOTE: Book and Productivity articles on Medium
     otherMediumStories: [
