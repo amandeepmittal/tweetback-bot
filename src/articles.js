@@ -1,5 +1,5 @@
 module.exports = {
-    // NOTE: Tehcnical articles on Medium & listed on website
+    // NOTE: Tehcnical blog posts
     tech: [
         'Learn to build your own #Twitter #Bot in #Nodejs #JavaScript https://hackernoon.com/create-a-simple-twitter-bot-with-node-js-5b14eb006c08#.90wbpgb8e via @hackernoon #Tech',
         '#Tutorial: Writing a #Nodejs #Twitter #Bot https://community.risingstack.com/node-js-twitter-bot-tutorial/ via @RisingStack #JavaScript #Tech ',
@@ -15,7 +15,8 @@ module.exports = {
         'How to use #Eslint in #Nodejs Applications? https://hackernoon.com/how-to-use-eslint-in-node-js-applications-cc4b2298ce55 via @hackernoon #JavaScript',
         'Modular #programming in #Angularjs https://amandeepmittal.github.io/blog/2017/05/18/Modular-programming-in-Angularjs/ via @amanhimself #JavaScript #Tech #WebDevelopment',
         'Concepts in #Angularjs https://amandeepmittal.github.io/blog/2017/05/21/Concepts-in-Angularjs/ #JavaScript #WebDevelopment',
-        'Getting Started with #Sequelize for #Nodejs Applications https://hackernoon.com/getting-started-with-sequelize-for-nodejs-applications-2854c58ffb8c #JavaScript #MySQL'
+        'Getting Started with #Sequelize for #Nodejs Applications https://hackernoon.com/getting-started-with-sequelize-for-nodejs-applications-2854c58ffb8c #JavaScript #MySQL',
+        'What\'s new in# npm 5? https://amandeepmittal.github.io/blog/2017/06/02/What-s-new-in-npm-5 #nodejs #javascript #packagemanager #development #tools'
     ],
     // NOTE: Book and Productivity articles on Medium
     otherMediumStories: [
