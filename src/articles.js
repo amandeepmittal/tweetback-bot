@@ -16,7 +16,7 @@ module.exports = {
         'Modular #programming in #Angularjs https://amandeepmittal.github.io/blog/2017/05/18/Modular-programming-in-Angularjs/ via @amanhimself #JavaScript #Tech #WebDevelopment',
         'Concepts in #Angularjs https://amandeepmittal.github.io/blog/2017/05/21/Concepts-in-Angularjs/ #JavaScript #WebDevelopment',
         'Getting Started with #Sequelize for #Nodejs Applications https://hackernoon.com/getting-started-with-sequelize-for-nodejs-applications-2854c58ffb8c #JavaScript #MySQL',
-        'What\'s new in# npm 5? https://amandeepmittal.github.io/blog/2017/06/02/What-s-new-in-npm-5 #nodejs #javascript #packagemanager #development #tools'
+        'What\'s new in #npm 5? https://amandeepmittal.github.io/blog/2017/06/02/What-s-new-in-npm-5 #nodejs #javascript #packagemanager #development #tools'
     ],
     // NOTE: Book and Productivity articles on Medium
     otherMediumStories: [
