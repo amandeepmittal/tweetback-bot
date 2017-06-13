@@ -29,22 +29,6 @@ function tweetTechArticles () {
 // tweet randomly and in every 12 hours
 setInterval(tweetTechArticles, 1000 * 60 * 60 * 12)
 
-/**
- * Tweet Other Medium Stories
- */
-
-function tweetOtherMediumArticles () {
-    let otherMediumArticles = uniqueRandomArray(articles.otherMediumStories)
-    let message = otherMediumArticles()
-
-    T.post('statuses/update', {status: message}, (err, data, response) => {
-        if (err) console.error('CANNOT SEND TWEET' + err)
-        console.log('TWEETED SUCCESSFULLY: Other Medium Article')
-    })
-}
-// tweet randomly and in every 12 hours
-setInterval(tweetOtherMediumArticles, 1000 * 60 * 60 * 12)
-
 
 // /*
 //  * Tweet these articles once every three days
