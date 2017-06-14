@@ -22,7 +22,7 @@ module.exports = {
         'Getting Started with #Sequelize for #Nodejs Applications https://amandeepmittal.github.io/blog/2017/05/30/Getting-Started-with-Sequelize-for-Nodejs-Applications #JavaScript #MySQL',
         'Tip: Setting up #MeanStack with #Webstorm https://amandeepmittal.github.io/blog/2017/05/05/Setting-up-MEAN-Stack-with-Webstorm/ #nodejs #javascript #development',
         'How to use #Eslint in #Nodejs Applications? https://amandeepmittal.github.io/blog/2017/04/28/Eslint-with-Nodejs/ #JavaScript',
-        'How To Maintain #Sanity When Finding A #Job https://42hire.com/how-to-maintain-sanity-when-finding-a-job-87d368bcfd0c#.jintkr98n via @42hire #Career #Productivity #Tech #jobhunting #jobsearch'
-
+        'How To Maintain #Sanity When Finding A #Job https://42hire.com/how-to-maintain-sanity-when-finding-a-job-87d368bcfd0c#.jintkr98n via @42hire #Career #Productivity #Tech #jobhunting #jobsearch',
+        'How to make #TwitterBots with #Nodejs https://amandeepmittal.github.io/blog/2017/06/15/How-to-make-a-Twitter-Bot-with-NodeJS/ #JavaScript'
     ]
 };
