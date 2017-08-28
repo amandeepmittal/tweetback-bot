@@ -19,15 +19,15 @@
   },
   "homepage": "https://github.com/amandeepmittal/tweetback-bot#readme",
   "dependencies": {
-    "node-schedule": "1.2.1",
+    "node-schedule": "1.2.4",
     "stoic-api": "1.4.0",
-    "twit": "2.2.5",
+    "twit": "2.2.9",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
-    "commitizen": "2.8.6",
-    "conventional-changelog": "1.1.0",
-    "cz-conventional-changelog": "1.2.0"
+    "commitizen": "2.9.6",
+    "conventional-changelog": "1.1.4",
+    "cz-conventional-changelog": "2.0.0"
   },
   "config": {
     "commitizen": {
