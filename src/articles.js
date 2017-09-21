@@ -17,6 +17,7 @@ module.exports = {
 		'How To Maintain #Sanity When Finding A #Job https://42hire.com/how-to-maintain-sanity-when-finding-a-job-87d368bcfd0c#.jintkr98n via @42hire #Career #Productivity #Tech #jobhunting #jobsearch',
 		'Converting a Buffer to JSON and Utf8 Strings in #Nodejs https://hackernoon.com/https-medium-com-amanhimself-converting-a-buffer-to-json-and-utf8-strings-in-nodejs-2150b1e3de57 #JavaScript #Tech',
 		'How to Hack Your Mornings so You Get Most of Your Time https://artplusmarketing.com/how-to-hack-your-mornings-so-you-get-most-of-your-time-b3e4d39c5b7c #LifeLessons #MorningThoughts',
+		'Setup Nodemon to auto restart #Nodejs #app server  https://hackernoon.com/setup-nodemon-to-auto-restart-nodejs-application-server-8d8993b7dfd9',
 		'Remove #Node Modules Recursively #nodejs #npm https://medium.com/@amanhimself/https-medium-com-amanhimself-remove-node-modules-recursively-5b5dd5fcc9ba'
 	]
 };
