@@ -19,6 +19,8 @@ module.exports = {
 		'How to Hack Your Mornings so You Get Most of Your Time https://artplusmarketing.com/how-to-hack-your-mornings-so-you-get-most-of-your-time-b3e4d39c5b7c #LifeLessons #MorningThoughts',
 		'Setup Nodemon to auto restart #Nodejs #app server  https://hackernoon.com/setup-nodemon-to-auto-restart-nodejs-application-server-8d8993b7dfd9',
 		'Remove #Node Modules Recursively #nodejs #npm https://medium.com/@amanhimself/https-medium-com-amanhimself-remove-node-modules-recursively-5b5dd5fcc9ba',
-		'Introduction to Hybrid #Mobile #Apps https://hackernoon.com/introduction-to-hybrid-mobile-apps-c97720b30557 #ionic #IonicFramework #javascript'
+		'Introduction to Hybrid #Mobile #Apps https://hackernoon.com/introduction-to-hybrid-mobile-apps-c97720b30557 #ionic #IonicFramework #javascript',
+		'What is #Ionic? Learn about developing #mobile apps with #IonicFramework https://hackernoon.com/what-is-ionic-c1da6eab0d8a via @amanhimself #javascript',
+		'How to use Font Awesome in an #Ionic Application https://hackernoon.com/how-to-use-font-awesome-in-an-ionic-application-31638ed3f77d #javascript #mobile'
 	]
 };
