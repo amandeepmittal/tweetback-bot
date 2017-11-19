@@ -1,37 +1,37 @@
 {
-	"name": "tweetback-bot",
-	"version": "1.7.2",
-	"description": "Tweet my stuff",
-	"main": "index.js",
-	"scripts": {
-		"commit": "git-cz",
-		"start": "node index.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/amandeepmittal/tweetback-bot.git"
-	},
-	"keywords": [],
-	"author": "Aman Mittal (http://amandeepmittal.github.io/)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/amandeepmittal/tweetback-bot/issues"
-	},
-	"homepage": "https://github.com/amandeepmittal/tweetback-bot#readme",
-	"dependencies": {
-		"node-schedule": "1.2.1",
-		"stoic-api": "1.4.0",
-		"twit": "2.2.5",
-		"unique-random-array": "1.0.0"
-	},
-	"devDependencies": {
-		"commitizen": "2.8.6",
-		"conventional-changelog": "1.1.0",
-		"cz-conventional-changelog": "1.2.0"
-	},
-	"config": {
-		"commitizen": {
-			"path": "node_modules/cz-conventional-changelog"
-		}
-	}
+  "name": "tweetback-bot",
+  "version": "1.8.0",
+  "description": "Tweet my stuff",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandeepmittal/tweetback-bot.git"
+  },
+  "keywords": [],
+  "author": "Aman Mittal (http://amandeepmittal.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amandeepmittal/tweetback-bot/issues"
+  },
+  "homepage": "https://github.com/amandeepmittal/tweetback-bot#readme",
+  "dependencies": {
+    "node-schedule": "1.2.1",
+    "stoic-api": "1.4.0",
+    "twit": "2.2.5",
+    "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "2.8.6",
+    "conventional-changelog": "1.1.0",
+    "cz-conventional-changelog": "1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
