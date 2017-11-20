@@ -24,6 +24,7 @@ module.exports = {
     "How to use Font Awesome in an #Ionic Application https://hackernoon.com/how-to-use-font-awesome-in-an-ionic-application-31638ed3f77d #javascript #mobile",
     "Using Google Fonts in an #Ionic Application https://hackernoon.com/using-google-fonts-in-an-ionic-application-c3419c342f23 #JavaScript #Hybrid #IonicFramework #mobile",
     "Basic Navigation in #Ionic Applications https://hackernoon.com/https-medium-com-amanhimself-basic-navigation-in-ionic-applications-ecb199cdf15b #JavaScript #JS #Hybrid #mbile via @hackernoon",
-    "How to Setup a React App from Scratch?” by @amanhimself https://codeburst.io/how-to-setup-a-react-app-from-scratch-860bad109837 #React #ReactJS #WebDev #JavaScript #JS"
+    "How to Setup a React App from Scratch?” by @amanhimself https://codeburst.io/how-to-setup-a-react-app-from-scratch-860bad109837 #React #ReactJS #WebDev #JavaScript #JS",
+    "Multi page navigation in an #Ionic #App https://hackernoon.com/multi-page-navigation-in-an-ionic-app-8b008f616cdb via @hackernoon #JavaScript #JS"
   ]
 };
