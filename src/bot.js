@@ -1,67 +1,50 @@
-'use strict';
+"use strict";
 
 // Dependencies
-const config = require('../config/index')
-const articles = require('./articles')
-const Twit =  require('twit')
-const uniqueRandomArray = require('unique-random-array')
-const stoicapi = require('stoic-api').random()
-const schedule = require('node-schedule')
+const config = require("../config/index");
+const Twit = require("twit");
+const stoicapi = require("stoic-api").random();
+const schedule = require("node-schedule");
+const ArticlesFromMedium = require("my-medium-articles-api");
 
-const T = new Twit(config)
+const T = new Twit(config);
 
-// indicate the bot is running
-console.log('Tweet-back Bot is runnning')
+// indicate the bot is running 👋
+console.log("Tweet-back Bot is runnning");
 
 /**
- * Tweet Technical Articles
+ * Tweet Medium Articles
  */
-function tweetTechArticles () {
-    let techArticles = uniqueRandomArray(articles.tech)
-    let message = techArticles();
 
-    T.post('statuses/update', {status: message}, (err, data, response) => {
-        if (err) console.error('CANNOT SEND TWEET' + err)
-        console.log('TWEETED SUCCESSFULLY: Technical Article')
-    })
+function tweetMediumArticles() {
+  let Article = ArticlesFromMedium;
+  T.post("statuses/update", { status: Article }, (err, data, response) => {
+    if (err) {
+      console.error(
+        `========= ERROR! Cannot Send Tweet due to:\n${err}\n=========`
+      );
+    }
+    console.log(
+      `========= SUCCESS! Daily Medium Article Shared on Twitter =========`
+    );
+  });
 }
 
-// tweet randomly and in every 12 hours
-setInterval(tweetTechArticles, 1000 * 60 * 60 * 12)
-
-
-// /*
-//  * Tweet these articles once every three days
-//  */
-// schedule.scheduleJob('* 22 * * 5', () => {
-//   let otherMediumArticles = uniqueRandomArray(articles.onlyOnce)
-//   let message = otherMediumArticles()
-//
-//   T.post('statuses/update', {status: message}, (err, data, response) => {
-//     if (err) {
-//       console.error('CANNOT SEND TWEET' + err)
-//     }
-//     console.log('TWEETED SUCCESSFULLY: Only Once Article')
-//   })
-// })
-
-/**
- * TODO: Tweet Book Blog posts
- */
-
+// tweet randomly and in every 24 hours
+setInterval(tweetMediumArticles, 1000 * 60 * 60 * 24);
 
 /**
  * Tweet Daily Stoicism
  */
 
-function tweetDailyStoic () {
-    let message = stoicapi;
+function tweetDailyStoic() {
+  let message = stoicapi;
 
-    T.post('statuses/update', {status:message}, (err, data, response) => {
-        if (err) console.error('CANNOT SEND TWEET' + err)
-        console.log('TWEETED SUCCESSFULLY: Daily Stoic Quote')
-    });
+  T.post("statuses/update", { status: message }, (err, data, response) => {
+    if (err) console.error("CANNOT SEND TWEET" + err);
+    console.log(`=== SUCCESS! Daily STOIC QUOTE Shared on Twitter ===`);
+  });
 }
 
 // tweet randomly and in every 24 hours
-setInterval(tweetDailyStoic, 1000 * 60 * 60 * 24)
+setInterval(tweetDailyStoic, 1000 * 60 * 60 * 24);
