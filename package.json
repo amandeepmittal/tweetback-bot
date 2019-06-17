@@ -1,6 +1,6 @@
 {
 	"name": "tweetback-bot",
-	"version": "2.1.29",
+	"version": "2.1.30",
 	"description": "Tweet my articles",
 	"main": "index.js",
 	"scripts": {
@@ -12,7 +12,7 @@
 		"url": "git+https://github.com/amandeepmittal/tweetback-bot.git"
 	},
 	"keywords": [],
-	"author": "Aman Mittal (http://amandeepmittal.github.io/)",
+	"author": "Aman Mittal (https://amanhimself.dev)",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/amandeepmittal/tweetback-bot/issues"
