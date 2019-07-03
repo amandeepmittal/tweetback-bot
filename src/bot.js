@@ -28,7 +28,7 @@ function tweetMediumArticles() {
 
 // tweet randomly and in every 24 hours
 setInterval(tweetMediumArticles, 1000 * 60 * 60 * 24)
-tweetMediumArticles()
+// tweetMediumArticles()
 
 /**
  * Tweet Daily Stoicism
