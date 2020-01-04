@@ -1,6 +1,5 @@
 # tweetback-bot
-Tweets [Medium](https://medium.com/@amanhimself) & [Blog](https://amandeepmittal.github.io/blog) articles at an interval of time.
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+I Tweet [Medium](https://medium.com/@amanhimself) & [Blog](https://amanhimself.dev) posts at a given interval of time.
 
-Written in Node.js
+Written in Node.js.
